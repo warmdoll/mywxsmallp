@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="page-box">
+  <image class='img_all' mode="aspectFit"   src="../images/travel.JPG"  ></image>
+  <view class="flex-box category-box">
+    <block wx:for="{{blogCategory}}" wx:key="a">
+      <view class='flex-box-item tc' bindtap='bindViewTap'>
+        <image  class="blog-category img_all" src="{{item.categorayUrl}}"  mode="widthFix"></image>
+        <view class="category-name" >{{item.categorayName}}</view>
+      </view>
+    </block>
+  </view>
+  <view class='banner'>
+    <text class='image-title'>最新技术文章</text>
+    
+    <image class='img_all' mode="aspectFit"   src="../images/banner.JPG"  ></image>
+    <text class='image-title'>最新其它文章</text>
+    <image class='img_all' mode="aspectFit"   src="../images/food.JPG"  ></image>
+  </view>
+</view>

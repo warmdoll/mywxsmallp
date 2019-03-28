@@ -1,0 +1,40 @@
+/**index.wxss**/
+page{
+  width: 100%;
+}
+.banner{
+  margin-bottom: 30rpx;
+  border-top: 10rpx solid #f7f7f7;
+  
+}
+.banner-box{
+  height: 400rpx;
+}
+.flex-box-item{
+  width: 25%;
+  margin-bottom:20rpx;
+}
+
+.blog-category{
+  width:60rpx;
+}
+.blog-category:first-child{
+  width: 45rpx;
+}
+.category-name{
+  font-size:25rpx;
+  color: #666;
+}
+.category-box{
+  padding: 20rpx;
+}
+.image-title{
+  color: #666;
+  display: block;
+  margin: 20rpx 0 10rpx 10rpx;
+  font-size: 25rpx;
+}
+.banner .img_all{
+  border-bottom: 10rpx solid #f7f7f7;
+
+}

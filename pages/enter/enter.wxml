@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view bindtap="bindViewTap" class='container'>
+      <image  class="enter-index" src="{{enterObj.imgUrl}}"  mode="widthFix"></image>
+      <view class="enter-text tc">{{enterObj.enterText}}</view>
+      <view class="enter-text tc">Anna</view>
+</view>
